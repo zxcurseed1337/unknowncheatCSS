@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="gather_interfaces.h" />
+    <ClInclude Include="Libraries\MinHook\include\MinHook.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="Utility\Modules.h" />
+    <ClInclude Include="Utility\Hooks.h" />
+    <ClInclude Include="SourceDefs\CClientState.h" />
+    <ClInclude Include="Hooks\WndProcHook.h" />
+    <ClInclude Include="State\CheatState.h" />
+    <ClInclude Include="gather_offsets.h" />
+    <ClInclude Include="Utility\memory.h" />
+    <ClInclude Include="Hooks\hookd3d.h" />
+    <ClInclude Include="ImGUI\backends\imgui_impl_dx9.h" />
+    <ClInclude Include="ImGUI\backends\imgui_impl_win32.h" />
+    <ClInclude Include="ImGUI\imconfig.h" />
+    <ClInclude Include="ImGUI\imgui.h" />
+    <ClInclude Include="ImGUI\imgui_internal.h" />
+    <ClInclude Include="ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="ImGUI\imstb_textedit.h" />
+    <ClInclude Include="ImGUI\imstb_truetype.h" />
+    <ClInclude Include="Menu\menu.h" />
+    <ClInclude Include="State\Settings.h" />
+    <ClInclude Include="Hooks\HookRenderView.h" />
+    <ClInclude Include="Features\ESP.h" />
+    <ClInclude Include="SourceDefs\NetVar.h" />
+    <ClInclude Include="Hooks\HookCalcViewModel.h" />
+    <ClInclude Include="Hooks\hookCL_Move.h" />
+    <ClInclude Include="SourceDefs\NetMsgs.h" />
+    <ClInclude Include="SourceDefs\CInput.h" />
+    <ClInclude Include="Events\Events.h" />
+    <ClInclude Include="Events\ModifyCmd.cpp" />
+    <ClInclude Include="Features\bhop.h" />
+    <ClInclude Include="Features\EnginePrediction.h" />
+    <ClInclude Include="SourceDefs\checksum_md5.h" />
+    <ClInclude Include="SourceDefs\CPrediction.h" />
+    <ClInclude Include="Hooks\HookRunCommand.h" />
+    <ClInclude Include="Features\Aimbot.h" />
+    <ClInclude Include="Features\target_selector.h" />
+    <ClInclude Include="Hooks\HookIBaseClientDLL.h" />
+    <ClInclude Include="Features\autowall.h" />
+    <ClInclude Include="Iterators.h" />
+    <ClInclude Include="Hooks\surfacehook.h" />
+    <ClInclude Include="Hooks\allhooks.h" />
+    <ClInclude Include="Hooks\hookStudioRender.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="gather_interfaces.cpp" />
+    <ClCompile Include="Utility\Modules.cpp" />
+    <ClCompile Include="Utility\Hooks.cpp" />
+    <ClCompile Include="Hooks\WndProcHook.cpp" />
+    <ClCompile Include="gather_offsets.cpp" />
+    <ClCompile Include="Utility\memory.cpp" />
+    <ClCompile Include="Hooks\hookd3d.cpp" />
+    <ClCompile Include="ImGUI\backends\imgui_impl_dx9.cpp" />
+    <ClCompile Include="ImGUI\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGUI\imgui.cpp" />
+    <ClCompile Include="ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="Menu\menu.cpp" />
+    <ClCompile Include="Menu\menu_aimbot.cpp" />
+    <ClCompile Include="Menu\menu_misc.cpp" />
+    <ClCompile Include="Menu\menu_plist.cpp" />
+    <ClCompile Include="Menu\menu_trivia.cpp" />
+    <ClCompile Include="Menu\menu_visual.cpp" />
+    <ClCompile Include="Hooks\HookRenderView.cpp" />
+    <ClCompile Include="Features\ESP.cpp" />
+    <ClCompile Include="SourceDefs\NetVar.cpp" />
+    <ClCompile Include="Hooks\HookCalcViewModel.cpp" />
+    <ClCompile Include="Hooks\hookCL_Move.cpp" />
+    <ClCompile Include="SourceDefs\NetMsgs.cpp" />
+    <ClCompile Include="SourceDefs\bitbuf.cpp" />
+    <ClCompile Include="Events\Events.cpp" />
+    <ClCompile Include="Features\bhop.cpp" />
+    <ClCompile Include="Features\EnginePrediction.cpp" />
+    <ClCompile Include="SourceDefs\checksum_md5.cpp" />
+    <ClCompile Include="SourceDefs\CPrediction.cpp" />
+    <ClCompile Include="Hooks\HookRunCommand.cpp" />
+    <ClCompile Include="Features\Aimbot.cpp" />
+    <ClCompile Include="Features\target_selector.cpp" />
+    <ClCompile Include="Hooks\HookIBaseClientDLL.cpp" />
+    <ClCompile Include="Features\autowall.cpp" />
+    <ClCompile Include="Iterators.cpp" />
+    <ClCompile Include="Hooks\surfacehook.cpp" />
+    <ClCompile Include="Hooks\allhooks.cpp" />
+    <ClCompile Include="Hooks\hookStudioRender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{dc2433db-0b6e-4aad-8851-0b66d6929cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source_sdk">
+      <UniqueIdentifier>{d56c8524-d5f1-4f49-9c48-fdeb5078d43a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
